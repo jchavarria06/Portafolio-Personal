@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8d6ff;
+  background-size: cover;
+  height: 100vh;
+  font-size: 10px;
+  background-position: left;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-image: url(img/fondo1.jpg);
+  min-height: 100vh;
+}
+
+.nav {
+  height: 6em;
+  width: 100%;
+}
+
+.nav--positionnav {
+  margin-top: 50px;
+}
+
+.nav--order {
+  display: flex;
+  background-color: rgba(180, 42, 42, 0.445);
+  padding-right: 5em;
+}
+
+.nav__list {
+  list-style: none;
+  margin-left: 17em;
+}
+
+.nav__item {
+  display: inline-block;
+  border-radius: 5em;
+  background-color: rgba(214, 125, 125, 0.836);
+  margin-left: 4em;
+  margin-right: 4em;
+  padding: 1em;
+}
+
+.nav__linkBottom {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav__linkBottom:hover {
+  background: linear-gradient(50deg, #d8bebe, #ac2929);
+  background-color: rgba(235, 20, 20, 0.589);
+  border-radius: 1em;
+  transform: translateY(10px);
+  box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.33);
+  display: block;
+  font-size: 28px;
+  margin-top: 20px;
+  max-width: 200px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  padding: 5px;
+}
+
+@media (max-width: 700px) {
+  .nav--positionnav {
+    display: inline-block;
+    justify-content: start;
+    margin-top: 20px;
+  }
+  .nav--order {
+    display: block;
+    background-color: #010521;
+  }
+  .nav__item {
+    display: inline-block;
+    padding-right: 0.2em;
+    padding-left: 0.5em;
+  }
+}
+
+.sectionInicio {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  height: inherit;
+}
+
+.sectionInicio__font {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectionInicio__img {
+  display: flex;
+  width: 25em;
+  height: 25em;
+  margin: 2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5em;
+  margin-left: 30em;
+  margin-top: 4rem;
+}
+
+.sectionInicio__img:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px rgba(235, 20, 20, 0.589);
+}
+
+.sectionInicio__text {
+  display: block;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-left: 30em;
+  width: 40%;
+  text-align: justify;
+  margin-bottom: 2rem;
+  color: #CDE8F3;
+  padding-top: 2em;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.sectionInformacion {
+  padding-top: 2rem;
+  height: inherit;
+}
+
+.sectionInformacion__text {
+  color: white;
+  font-size: 26px;
+  margin-top: 5em;
+  text-align: justify;
+}
+
+.sectionInformacion__text--Description {
+  padding: 2em;
+  color: white;
+  font: 1em solid sans-serif;
+  background-color: black;
+}
+
+.sectionInformacion__text--titulosH {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 1em;
+}
+
+.sectionInformacion__text--resaltar {
+  color: rgba(70, 235, 20, 0.589);
+}
+
+.sectionInformacion__carousel-position {
+  height: 550px;
+  width: 800px;
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.sectionInformacion__carousel-inner-img {
+  width: 800px;
+  height: 500px;
+}
+
+.sectionProyect {
+  padding: 5em;
+  margin: 5em;
+}
+
+.sectionProyect--transitation {
+  font-size: 6px;
+  color: white;
+  margin-right: 20em;
+  width: 100px;
+  height: 100px;
+  background: rgba(235, 20, 20, 0.589);
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.sectionProyect--transitation:hover {
+  text-align: justify;
+  width: 300px;
+  height: 400px;
+  transform: rotate(360deg);
+  border-radius: 4em;
+  font-size: 20px;
+  padding: 2.5em;
+  margin: 0.5em;
+  margin-top: -2em;
+}
+
+.sectionProyect__position {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.sectionProyect__text {
+  color: white;
+  margin-top: 5em;
+  text-align: justify;
+}
+
+.sectionProyect__text--Description {
+  color: black;
+  font: 1.5em solid sans-serif;
+}
+
+.sectionProyect__text--titulosH {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: -3em;
+  margin-bottom: 3em;
+}
+
+.sectionProyect__text--resaltar {
+  color: rgba(10, 10, 71, 0.788);
+}
